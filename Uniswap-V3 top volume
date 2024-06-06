@@ -1,0 +1,15 @@
+{
+  tokens(where: {symbol: "GRT"}) {
+    id
+    name
+    symbol
+    decimals
+    tokenAddresses {
+      address
+      chainID {
+        id
+      }
+    }
+    description
+  }
+}
